@@ -65,11 +65,14 @@ Cell2Cell top-decile lift: **1.94** (the 10% of customers ranked riskiest churn 
 - **Top churn signals:** Telco: contract type, tenure, internet service and payment method.
   Cell2Cell: falling minutes used, months in service, revenue per minute and phone age.
 
-## Repository structure
+## Repository Structure
+
+```text
 ├── README.md
 ├── requirements.txt
-├── telco_churn.ipynb # IBM Telco: cleaning, EDA, baselines, tuning, final test
-└── cell2cell_churn.ipynb # Cell2Cell: cleaning, EDA, feature engineering, models, final test
+├── telco_churn.ipynb      # IBM Telco: cleaning, EDA, baselines, tuning, final test
+└── cell2cell_churn.ipynb  # Cell2Cell: cleaning, EDA, feature engineering, models, final test
+```
 
 
 ## How to run
